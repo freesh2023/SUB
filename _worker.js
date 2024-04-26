@@ -172,7 +172,7 @@ export default {
 			});
 		}
 
-		const subconverterUrl = `https://${subconverter}/sub?target=${target}&url=${encodeURIComponent(sublinks)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
+		const subconverterUrl = `https://${subconverter}/sub?target=${target}&url=${encodeURIComponent(sublinks)}&insert=false&config=${encodeURIComponent(subconfig)}&emoji=true&expand=false&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 
 		try {
 			const subconverterResponse = await fetch(subconverterUrl);
